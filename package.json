@@ -1,0 +1,27 @@
+{
+  "name": "mikasa",
+  "version": "1.0.0",
+  "description": "webcam and screen recorder streaming to users ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "node.js",
+    "screenrecord",
+    "expressJS"
+  ],
+  "author": "mohammad hunan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "desktop-screenshot": "^0.1.1",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "mustache-express": "^1.2.5",
+    "path": "^0.12.7",
+    "screen-recorder": "^1.4.0",
+    "screenrec": "0.0.3",
+    "ws": "^3.0.0"
+  }
+}
